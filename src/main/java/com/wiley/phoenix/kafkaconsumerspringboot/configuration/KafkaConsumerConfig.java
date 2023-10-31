@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Configuration
-public class KafkaConfig {
+public class KafkaConsumerConfig {
 
     @Bean
     public ConsumerFactory<String, String> consumerFactory() {
